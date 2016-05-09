@@ -1,6 +1,50 @@
-Xamarin.Forms: TabbedPage Demo
+## สร้าง TabbedPage แบบง่าย
 
-- [x] [Starting an app with a TabbedPage](https://github.com/patridge/XamarinForms-Tabs-Demo/blob/master/SwitchingTabbedPageDemo/SwitchingTabbedPageDemo/App.cs#L6)
-- [x] [Getting tabs in a TabbedPage](https://github.com/patridge/XamarinForms-Tabs-Demo/blob/master/SwitchingTabbedPageDemo/SwitchingTabbedPageDemo/MainTabbedPage.cs#L17)
-- [x] [Setting tab icon and title](https://github.com/patridge/XamarinForms-Tabs-Demo/blob/master/SwitchingTabbedPageDemo/SwitchingTabbedPageDemo/MainTabbedPage.cs#L14)
-- [x] [Switching tabs programmatically](https://github.com/patridge/XamarinForms-Tabs-Demo/blob/master/SwitchingTabbedPageDemo/SwitchingTabbedPageDemo/MainTabbedPage.cs#L36)
+### โครงสร้างโปรเจค
+
+```
+SwitchingTabbedPageDemo/
+├── App.cs
+├── MainTabbedPage.cs
+├── Properties
+│   └── AssemblyInfo.cs
+├── Views
+│   ├── FacebookPage.cs
+│   ├── InstagramPage.cs
+│   └── TwitterPage.cs
+```
+
+### ไฟล์ `MainTabbedPage.cs`
+
+```csharp
+public class MainTabbedPage : TabbedPage {
+    public MainTabbedPage() {
+        var twitter = new NavigationPage(new TwitterPage()) {
+            Title = "Twitter",
+            Icon = "square.png"
+        };
+        var instagram = new NavigationPage(new InstagramPage()) {
+            Title = "Instagram",
+            Icon = "circle.png"
+        };
+        var facebook = new NavigationPage (new FacebookPage ()) {
+            Title = "Facebook",
+            Icon = "square.png"
+        };
+        Children.Add (twitter);
+        Children.Add (instagram);
+        Children.Add (facebook);
+    }
+}
+```
+
+### ไฟล์ `TwitterPage.cs`
+
+```csharp
+public class TwitterPage : ContentPage {
+    public TwitterPage() {
+        Title = "Twitter";
+        Icon = "circle.png";
+    }
+}
+```
