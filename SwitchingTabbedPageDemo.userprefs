@@ -1,0 +1,4 @@
+﻿<Properties StartupItem="iOS/SwitchingTabbedPageDemo.iOS.csproj">
+  <MonoDevelop.Ide.ItemProperties.SwitchingTabbedPageDemo.Droid PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
+  <MonoDevelop.Ide.ItemProperties.SwitchingTabbedPageDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C9A69641-F419-4B7C-96F0-48EB5846E89B" />
+</Properties>
