@@ -1,4 +1,4 @@
-## สร้าง TabbedPage แบบง่าย
+## สร้าง Tabbed Page แบบง่าย
 
 ![](Screen/tabbed-page.png)
 
