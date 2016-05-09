@@ -1,5 +1,7 @@
 ## สร้าง TabbedPage แบบง่าย
 
+![](Screen/tabbed-page.png)
+
 ### โครงสร้างโปรเจค
 
 ```
