@@ -2,7 +2,7 @@
 
 ![](Screen/tabbed-page.png)
 
-### โครงสร้างโปรเจค
+## โครงสร้างโปรเจค
 
 ```
 SwitchingTabbedPageDemo/
@@ -16,7 +16,7 @@ SwitchingTabbedPageDemo/
 │   └── TwitterPage.cs
 ```
 
-### ไฟล์ `MainTabbedPage.cs`
+## ไฟล์ `MainTabbedPage.cs`
 
 ```csharp
 public class MainTabbedPage : TabbedPage {
@@ -40,7 +40,7 @@ public class MainTabbedPage : TabbedPage {
 }
 ```
 
-### ไฟล์ `TwitterPage.cs`
+## ไฟล์ `TwitterPage.cs`
 
 ```csharp
 public class TwitterPage : ContentPage {
