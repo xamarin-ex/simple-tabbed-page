@@ -1,4 +1,15 @@
 ﻿<Properties StartupItem="iOS/SwitchingTabbedPageDemo.iOS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SwitchingTabbedPageDemo/Views/TwitterPage.cs">
+    <Files>
+      <File FileName="SwitchingTabbedPageDemo/MainTabbedPage.cs" Line="7" Column="1" />
+      <File FileName="SwitchingTabbedPageDemo/Views/TwitterPage.cs" Line="5" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.SwitchingTabbedPageDemo.Droid PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.SwitchingTabbedPageDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C9A69641-F419-4B7C-96F0-48EB5846E89B" />
 </Properties>
