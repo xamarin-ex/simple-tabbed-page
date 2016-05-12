@@ -5,15 +5,21 @@
 ## โครงสร้างโปรเจค
 
 ```
-SwitchingTabbedPageDemo/
-├── App.cs
-├── MainTabbedPage.cs
-├── Properties
-│   └── AssemblyInfo.cs
-├── Views
-│   ├── FacebookPage.cs
-│   ├── InstagramPage.cs
-│   └── TwitterPage.cs
+├── Droid
+│   ├── MainActivity.cs
+│   └── Properties
+│       └── AssemblyInfo.cs
+├── SwitchingTabbedPageDemo
+│   ├── App.cs
+│   ├── MainTabbedPage.cs
+│   ├── Properties
+│   │   └── AssemblyInfo.cs
+│   └── Views
+│       ├── FacebookPage.cs
+│       ├── InstagramPage.cs
+│       └── TwitterPage.cs
+└── iOS
+    └── AppDelegate.cs
 ```
 
 ## ไฟล์ `MainTabbedPage.cs`
